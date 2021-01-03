@@ -1,0 +1,43 @@
+.right_box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: .1px .1px 10px grey;
+    width: 350px;
+    background-color: white;
+    border-bottom: 1px solid #E3E5E8;
+}
+
+.right_box > * {
+    margin: 5px 0;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+
+}
+
+.right_box input {
+    border:1.5px solid #DDDFE2;
+    flex: 1;
+}
+.right_box > input:focus {
+    box-shadow: 0 0 0 1px #1877F2;
+}
+
+.btn {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn_blue {
+background-color: #1877F2;
+}
+
+.btn_green {
+width: 60%;
+background-color: #36A420;
+align-self: center;
+text-decoration: none;
+}

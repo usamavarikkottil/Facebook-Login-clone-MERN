@@ -1,0 +1,29 @@
+
+.brand {
+    flex: 1;
+}
+.brand img {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.brand h4 {
+    font-weight: normal;
+    font-size: 25px;
+    margin: 0 30px 30px;
+}
+
+
+@media(max-width: 900px) {
+    .brand {
+        margin-top: 40px;
+        text-align: center;
+        width: 450px;
+    }
+
+    .brand h4 {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+}
